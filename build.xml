@@ -1,0 +1,44 @@
+<project name="Easy-Android" default="build" basedir=".">
+
+	<property file="build.properties"/>
+	
+    <target name="init" description="Build initialization">
+        <path id="libs">
+            <fileset dir="lib" includes=""/>
+        </path>
+    </target>
+
+
+    <target name="clean" depends="init">
+        <delete dir="build"/>
+    </target>
+
+
+    <target name="build" depends="clean">
+        
+		<mkdir dir="build/classes"/>
+		
+        <javac
+			   destdir="build/classes"
+               debug="${compiler.debug}"
+               optimize="${compiler.optimize}"
+               deprecation="${compiler.deprecation}"
+			   target="${compiler.target}"
+               encoding="${compiler.encoding}">
+			   
+			<src path="src-util"/>
+			<src path="src-core"/>
+			<src path="src-gf"/>
+			<src path="src-view"/>
+			
+            <classpath refid="libs"/>
+        </javac>
+
+        <jar jarfile="build/easy-android.jar">
+            <fileset dir="build/classes"/>
+        </jar>
+		
+    </target>
+	
+</project>
+

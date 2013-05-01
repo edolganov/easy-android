@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src-util"/>
+	<classpathentry kind="src" path="src-core"/>
+	<classpathentry kind="src" path="src-gf"/>
+	<classpathentry kind="src" path="src-view"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/android-support-v4.jar"/>
+	<classpathentry kind="lib" path="lib/android-stub.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
