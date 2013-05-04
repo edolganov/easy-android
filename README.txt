@@ -22,3 +22,7 @@ You can build sources in 3 ways:
 USE CASES
 See https://github.com/edolganov/easy-android/wiki/Use-Cases
 
+
+APP EXAMPLE
+See https://play.google.com/store/apps/details?id=com.faces
+
