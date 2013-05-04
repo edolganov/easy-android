@@ -9,7 +9,7 @@ It contains:
     src-util:    common utils for Java and Android environment
     src-core:    framework common classes such as BaseActivity, Singleton, BaseApplication
     src-gf:      Green-Forest framework for Android (see http://code.google.com/p/green-forest/)
-	src-view:    common view components
+    src-view:    common view components
     lib:         thirdparty jars for compile
 
 BUILD
